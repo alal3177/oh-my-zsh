@@ -5,7 +5,7 @@ function ssh_connection() {
 }
 
 
-PROMPT='$(ssh_connection) %{$fg_bold[red]%}➜ %{$fg_bold[yellow]%}%n %{$fg_bold[white]%}@ %{$fg_bold[green]%}%m %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} %{$reset_color%}'
+PROMPT='$(ssh_connection)%{$fg_bold[red]%}➜ %{$fg_bold[yellow]%}%n %{$fg_bold[white]%}@ %{$fg_bold[green]%}%m %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} %{$reset_color%}'
 
 
 
